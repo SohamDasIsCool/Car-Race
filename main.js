@@ -56,6 +56,7 @@ function left2() {
     car_x2 -=10;
     uploadBackground();
     uploadCar2();
+    uploadCar1();
 }
 }
 function right2() {
@@ -64,6 +65,7 @@ function right2() {
     car_x2 +=10;
     uploadBackground();
     uploadCar2();
+    uploadCar1();
 }
 }
 function left1() {
@@ -72,6 +74,7 @@ function left1() {
     car_x1 -=10;
     uploadBackground();
     uploadCar1();
+    uploadCar2();
 }
 }
 function right1() {
@@ -79,5 +82,6 @@ function right1() {
         car_x1 +=10;
         uploadBackground();
         uploadCar1();
+        uploadCar2();
     }
 }
